@@ -12,6 +12,6 @@ function snapCrackle(maxValue) {
       numero.push(counter);
     }
   }
-  return numero;
+  return numero.join(",");
 }
-console.log(snapCrackle(12));
+console.log(snapCrackle(15));
